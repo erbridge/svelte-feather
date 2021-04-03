@@ -1,0 +1,50 @@
+{
+  "name": "@erbridge/svelte-feather",
+  "description": "Feather icons as Svelte components",
+  "version": "0.0.1",
+  "svelte": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "keywords": [
+    "feather",
+    "icons",
+    "svelte"
+  ],
+  "homepage": "https://github.com/erbridge/svelte-feather#readme",
+  "license": "SEE LICENSE IN LICENCE",
+  "author": "erbridge <f@erbridge.co.uk>",
+  "repository": "erbridge/svelte-feather",
+  "scripts": {
+    "build": "ts-node-script generator && rollup -c",
+    "test": "npm run build && svelte-check --ignore 'generator/template.svelte'",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "svelte": "^3.37.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/feather-icons": "^4.7.0",
+    "@types/mkdirp": "^1.0.1",
+    "@types/prettier": "^2.2.3",
+    "feather-icons": "^4.28.0",
+    "pascal-case": "^3.1.2",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "rollup": "^2.44.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.37.0",
+    "svelte-check": "^1.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
