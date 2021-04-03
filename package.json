@@ -1,7 +1,7 @@
 {
   "name": "@erbridge/svelte-feather",
   "description": "Feather icons as Svelte components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "svelte": "dist/index.svelte.js",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
