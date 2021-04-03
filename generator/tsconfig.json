@@ -1,3 +1,6 @@
 {
-  "extends": "@tsconfig/node14"
+  "extends": "@tsconfig/node14",
+  "compilerOptions": {
+    "resolveJsonModule": true
+  }
 }
