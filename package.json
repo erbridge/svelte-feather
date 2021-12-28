@@ -31,7 +31,7 @@
     "svelte2tsx": "^0.4.12"
   },
   "devDependencies": {
-    "@tsconfig/node14": "^1.0.0",
+    "@tsconfig/node14": "^1.0.1",
     "@types/feather-icons": "^4.7.0",
     "@types/prettier": "^2.2.3",
     "feather-icons": "^4.28.0",
