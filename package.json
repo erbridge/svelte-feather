@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.1",
-    "svelte2tsx": "^0.4.12"
+    "svelte2tsx": "^0.5.8"
   },
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
