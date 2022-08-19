@@ -41,7 +41,7 @@
     "rollup": "^2.62.0",
     "rollup-plugin-svelte": "^7.1.0",
     "svelte": "^3.44.3",
-    "svelte-check": "^2.2.11",
+    "svelte-check": "^2.8.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
   }
