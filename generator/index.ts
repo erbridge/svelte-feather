@@ -1,13 +1,7 @@
 /// <reference path="./modules.d.ts" />
 
 import feather from "feather-icons";
-import {
-  existsSync,
-  mkdirSync,
-  readFileSync,
-  rmdirSync,
-  writeFileSync,
-} from "fs";
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "fs";
 import { pascalCase } from "pascal-case";
 import path from "path";
 import prettier from "prettier";
@@ -20,7 +14,7 @@ const COMPONENT_TEMPLATE_PATH = path.join(__dirname, "template.svelte");
 const DECLARATION_TEMPLATE_PATH = path.join(__dirname, "template.svelte.d.ts");
 
 if (existsSync(OUTPUT_PATH)) {
-  rmdirSync(OUTPUT_PATH, { recursive: true });
+  rmSync(OUTPUT_PATH, { recursive: true });
 }
 
 mkdirSync(OUTPUT_PATH, { recursive: true });
