@@ -33,10 +33,10 @@
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
     "@types/feather-icons": "^4.7.0",
-    "@types/prettier": "^2.7.0",
+    "@types/prettier": "^2.7.2",
     "feather-icons": "^4.28.0",
     "pascal-case": "^3.1.2",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.1",
     "prettier-plugin-svelte": "^2.8.0",
     "rollup": "^2.79.0",
     "rollup-plugin-svelte": "^7.1.0",
